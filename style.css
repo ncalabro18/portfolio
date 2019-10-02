@@ -1,0 +1,37 @@
+body{
+    background: grey;
+    font-family: "Calibri Light", sans-serif;
+    color: #222222;
+}
+
+.wrapper{
+    padding: 7%;
+    margin: 3% 3% 3% 3%;
+    background: lightgrey;
+    border-radius: 35px;
+    height: 47vh;
+}
+
+.left{
+    width: 48%;
+    float: left;
+    horiz-align: right;
+}
+
+.right{
+    width:48%;
+    float: right;
+    text-align: center;
+    padding-right: 0;
+
+}
+#img{
+    width: 50%;
+    height: 50%;
+}
+p{
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
