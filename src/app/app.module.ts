@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from "@angular/router";
 
-import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbCardModule, NbSelectModule } from '@nebular/theme';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,11 +19,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'default' }),
     NbLayoutModule,
-    NbCardModule 
+    NbCardModule,
+    NbSelectModule 
   ],
   providers: [],
   bootstrap: [AppComponent],
